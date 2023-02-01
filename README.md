@@ -2,7 +2,7 @@
 ## 问题
 超大规模数据的多卡多num_worker情况下，对于数据annotation信息的拷贝会造成极大的内存占用，本repo希望通过LMDB将大的容器对象cache到硬盘上，以避免上述问题
 
-![OOM示例](./assets/oom_fig.png)
+![OOM示例](https://raw.github.com/luo3300612/LMDBContainers/master/assets/oom_fig.png)
 
 ## 注意
 * LMDB写入时，必须保证没有任何txn在执行读取操作
