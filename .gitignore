@@ -1,0 +1,3 @@
+test/lmdb_test
+lmdb_containers.egg-info
+**/__pycache__/
