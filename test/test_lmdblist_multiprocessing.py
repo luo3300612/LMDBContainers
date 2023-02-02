@@ -24,7 +24,7 @@ class MyTestCase(unittest.TestCase):
             shutil.rmtree('./lmdb_test')
         data = [str(i) for i in range(50)]
         dataset = TestDataset(data)
-        dataloader = DataLoader(dataset, batch_size=10, num_workers=2,persistent_workers=True)
+        dataloader = DataLoader(dataset, batch_size=10, num_workers=2, persistent_workers=True)
         for epoch in range(2):
             for number in dataloader:
                 print('data:', number)
