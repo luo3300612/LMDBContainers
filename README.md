@@ -16,6 +16,7 @@
 * 依赖pytorch内置的同步机制，写一个初版的lmdblist，其进程间同步由pytorch来保证
 
 ## LMDB List
+![LMDBList示例](https://raw.github.com/luo3300612/LMDBContainers/master/assets/lmdblist.png)
 
 ### 实现
 
